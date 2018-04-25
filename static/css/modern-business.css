@@ -137,7 +137,28 @@ footer {
 .paralelogramo h2, .paralelogramo p{
     color:white;
 }
-
+.nautilus-n{
+    background: url(../svg/inclinado-carousel.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 95%;
+}
+.barco1{
+    background: url(../svg/barco1.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+   
+}
+.barco2{
+    background: url(../svg/barco2.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+   
+}
 /* ================estilos propios de firenze==============*/
 /*colores- de fondo-*/
 
