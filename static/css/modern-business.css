@@ -87,9 +87,12 @@ header.carousel .fill {
 .carousel-caption h1{
     color: white;
     font-size: 5rem;
+    padding-top: 20px;
+    padding-bottom: 120px;
     text-transform: uppercase;
     text-shadow: 0px 2px 6px #404040;
 }
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -208,10 +211,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding: 0px 0px;
     margin-bottom: 150px;
 }
-.color-fluid-4{
-    background-color: #A67C52;
-    padding-top: 5px;
-    padding-bottom: 0px;
+.container-from-4{
+    background-color: #1C2C55;
+    padding:35px 15px;
+    border-radius: 5px;
+}
+.container-from-4 h1, .container-from-4 label{
+    color:white;
+    text-align: center;
+}
+.container-from-4 input{
+     border-radius: 50px;
 }
 .color-fluid-5{
     background-color: #1a1a1a;
@@ -419,18 +429,19 @@ border-radius: 5px;
    border-color: #1C2C55;
 }
 
-.form-inline .btn-special{
-    margin: 0px;
-    padding: 10px 8%;
-    border: 1px solid #A67C52;
-    border-radius: 0px;
-    background-color: transparent;
-    color: #A67C52;
+form .btn-special{
+    margin: 0 auto;
+    display: block; 
+    padding: 15px 15%;
+    border: 1px solid #1C2C55;
+    border-radius: 50px;
+    background-color: #E5C13E;
+    color: #1C2C55;
 }
-.form-inline .btn-special:hover{
-    color: #42210B;
-   background-color: #F9EEE5;
-   border-color: #42210B;
+form .btn-special:hover{
+    color: #E5C13E;
+   background-color: #0e0e40;
+   border-color: #E5C13E;
 }
 .btn-circle {
     width: 70px;
@@ -508,17 +519,6 @@ border-radius: 5px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .limpio{
     padding-left: 0px;
     padding-right: 0px;
@@ -559,7 +559,7 @@ color: #060640 !important;
 }
 
 .navbar-nav>li>a:hover{
-    color: #D53230 !important;
+    color: #ca831c !important;
 
 }
 .navbar-inverse .nuevo-navbar-toggle{
@@ -1268,6 +1268,18 @@ box-shadow: none;
     border-radius: 50px;
     box-shadow: 0px 2px 1px #fff;
     
+    }
+    .btn-suscription:hover{
+      color: #E5C13E;
+      background-color: #1C2C55 ; 
+    
+    }
+    .container-from-4{
+    background-color: #1C2C55;
+    padding:35px 15px;
+    border-radius: 5px;
+    position: relative;
+    top: -100px;
 }
   
 
