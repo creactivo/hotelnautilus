@@ -467,9 +467,13 @@ form .btn-special:hover{
 
 .links-site{
         padding: 30px 0px;
+        text-align: center;
 }
 .links-site p{
     text-transform: uppercase;
+}
+.links-site h3{
+    text-align: center;
 }
 .links-site a:hover{
     color: #E5C13E;
@@ -1280,7 +1284,17 @@ box-shadow: none;
     border-radius: 5px;
     position: relative;
     top: -100px;
-}
+    }
+    .links-site{
+    padding: 30px 0px;
+    text-align: inherit;
+    }
+    .links-site p{
+    text-align: inherit;
+    }
+    .links-site h3{
+    text-align: inherit;
+    }
   
 
 }
